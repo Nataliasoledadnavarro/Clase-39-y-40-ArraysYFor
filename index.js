@@ -210,6 +210,8 @@ for (let i = 100; i >= 1; i -= 3) {
 
 /////////////////EJERCICIOS CLASE 40//////////////////////
 
+//EJERCICIO 1 RESUELTO
+
 //Dados un array de 10 números, informar cuantos de ellos son positivos.
 
 /*const numeros = [1,2,3,-5,18,-55,98,-3,-9,10];
@@ -227,5 +229,67 @@ const numerosPositivos = (array) => {
 
 console.log(numerosPositivos(numeros));*/
 
+//EJERCICIO 2 RESUELTO PERO PODRIA MEJORAR QUE SUME TODOS LOS ELEMENTOS JUNTOS
+
+//Dado un array de 10 numeros, donde cada número representa la nota de una alumna, informar el promedio final de nota del curso.
+
+/*const notas = [3, 8, 7, 9, 6, 9, 10, 7, 9, 8];
+
+const calcularPromedio = (array) => {
+  for (let index = 0; index < array.length; index++) {
+    let suma =
+      notas[0] +
+      notas[1] +
+      notas[2] +
+      notas[3] +
+      notas[4] +
+      notas[5] +
+      notas[6] +
+      notas[7] +
+      notas[8] +
+      notas[9];
+      
+    return suma / array.length;
+  }
+};
+
+console.log(calcularPromedio(notas));*/
+
+// EJERCICIO 3// resolver como sumar el contenido
+//Dado un array de 10 numeros, donde cada número representa la nota de una alumna, informar el promedio tomando solo aquellas que tienen una nota mayor a 7.
+
+/*const notas = [3, 8, 7, 9, 6, 9, 10, 7, 9, 8];
+
+const promedioAprobadas = (array) => {
+  let notasAprobadas = 0;
+
+  for (let index = 0; index < array.length; index++) {
+    if (notas[index] >= 7) {
+      notasAprobadas++;
+    }
+  }
+  return notasAprobadas;
+};
+
+console.log(promedioAprobadas(notas));*/
+
+//Ejercicio 4 RESUELTO
+
+//Dada una N cantidad de temperaturas de una región, se requiere informar cuál fue la mayor temperatura.
+
+/*const temperaturas = [5,16,58,76,6,8]
+
+const temperaturaMasAlta = (array) =>{
+  let maxima = 0
+  for (let index = 0; index < array.length; index++) {
+    
+   if(maxima < array[index]){
+     maxima = array[index]
+   }
+  }
+  return maxima
+}
+
+console.log(temperaturaMasAlta(temperaturas))*/
 
 
