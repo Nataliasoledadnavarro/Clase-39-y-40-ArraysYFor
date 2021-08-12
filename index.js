@@ -292,4 +292,93 @@ const temperaturaMasAlta = (array) =>{
 
 console.log(temperaturaMasAlta(temperaturas))*/
 
+////////EJERCICIOS EN CLASE////////
+
+//1 Dado un array de 10 números, mostrar cada uno en consola.
+
+/*const numeros = [1,2,8,-8,28,40,77,8,5,6]
+
+for (let index = 0; index < numeros.length; index++) {
+  console.log(numeros[index])
+  
+}*/
+
+//2 Dado un array de 10 números, mostrar solo los que son mayores a 5 en consola.
+
+/*const numeros = [1,2,8,-8,28,40,77,8,5,6]
+
+for (let index = 0; index < numeros.length; index++) {
+if (numeros[index] > 5){
+  console.log(numeros[index])
+}
+  
+}*/
+
+// 3 Promedio de un curso
+
+//Dado un array de 3 numeros, donde cada número representa la nota de una alumna, retornar el promedio final de nota del curso.
+
+/*const notas = [7, 5, 8];
+
+const promedio = (notas) => {
+  let total = 0;
+
+  for (let index = 0; index < notas.length; index++) {
+    total += notas[index];
+  }
+
+  return total / notas.length;
+};
+
+console.log(promedio(notas));*/
+
+// 5 Promedio de promoción
+
+//Dado un array de 10 numeros, donde cada número representa la nota de una alumna, retornar el promedio tomando solo aquellas que tienen una nota mayor a 7.
+
+/*const notas = [7,5,8,5,4,10,8,9,3,2];
+
+const promedioAprobadas = (notas) => {
+
+  let notasAprobadas = 0
+  let contador = 0
+
+  for (let index = 0; index < notas.length; index++) {
+
+    if (notas[index]>7) {
+
+      notasAprobadas += notas[index]
+      contador ++
+    }
+
+  }
+
+  return notasAprobadas / contador
+
+}
+
+console.log(promedioAprobadas(notas))*/
+
+//Temperatura más alta
+
+//Dado un array de cualquier longitud, compuesto por numeros que representan temperaturas de una región, se requiere retornar cuál fue la mayor temperatura.
+
+/*const temperaturas = [25,12,13,40,36,2,10]
+
+const temperaturaMasAlta = (temperaturas) =>{
+  let maxima = 0
+
+  for (let index = 0; index < temperaturas.length; index++) {
+   if (maxima < temperaturas[index]){
+     maxima = temperaturas[index]
+   }
+    
+  }
+  return maxima
+}
+
+console.log(temperaturaMasAlta(temperaturas))*/
+
+//5 ARRAYS BIDIMENSIONALES
+
 
